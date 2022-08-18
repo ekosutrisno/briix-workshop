@@ -5,9 +5,9 @@ spring:
   application:
     name: STUDENT SERVICES
   datasource:
-    url: jdbc:postgresql://localhost:5432/briix
+    url: jdbc:postgresql://localhost:10543/briix
     username: postgres
-    password: root
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
     open-in-view: false

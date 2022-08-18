@@ -1,5 +1,6 @@
 package com.briix.briixtesting.model;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,6 +10,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
+@Builder
 public class FixedIncomeRequest {
 
     private String name;
